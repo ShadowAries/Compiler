@@ -1,0 +1,17 @@
+/* YOU MUST DISABLE THE CHECK FOR MAIN HAVING MEMBERS" */
+
+Main {
+	integer a1;
+	integer a2;
+	
+     main() -> none {
+     	integer a3;
+
+     	a3 = a1 + 5;
+     	a2 = 6 + a1;
+     	
+     	print a1;
+     	print a3 + a2;
+     }    
+
+}

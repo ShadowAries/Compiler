@@ -1,0 +1,62 @@
+class0 {
+    integer	member0;
+    boolean	member1;
+    integer	member2;
+    integer	member3;
+    integer	member4;
+
+    class0(arg0 : integer, arg1 : boolean) -> none {
+        integer local0;
+        
+        member4 = 30;
+        member1 = 38 <= 249;
+        member0 = 107;
+        member3 = (136);
+        member2 = 40;
+        local0 = (244);
+        
+        local0 = member0;
+        if member1 {
+            print local0;
+        }
+        
+        if member1 {
+            local0 = 253 - 73;
+            print arg1;
+            print -local0;
+        } else {
+            local0 = 171;
+            local0 = member4 + 117;
+        }
+        
+        local0 = member4;
+
+    }
+    
+    f0(arg0 : integer) -> boolean {
+    
+    	return arg0 <= 10;
+    	
+    }
+
+}
+
+Main {
+
+
+    main() -> none {
+        boolean local0;
+        class0 local1;
+        
+        local0 = not (true);
+        local1 = new class0(198, local0);
+        
+        print false;
+        local0 = local0 or local0;
+        local0 = 185 equals 197 + 1 - 154 * 101;
+		local1.f0(local0); /* Error this line */
+    }
+
+
+}
+

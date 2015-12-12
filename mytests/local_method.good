@@ -1,0 +1,23 @@
+/* YOU MUST DISABLE THE CHECK FOR MAIN HAVING MEMBERS" */
+
+A {
+     integer x;
+}
+
+
+Main {
+
+     foo (x : integer, y : boolean) -> integer {
+          print y;
+          return x;
+     } 
+     
+     main() -> none {
+          integer result;
+
+          result = foo(5, true);
+
+          print result;
+     }  
+
+}

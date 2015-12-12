@@ -1,0 +1,37 @@
+/* YOU MUST DISABLE THE CHECK FOR MAIN HAVING MEMBERS" */
+
+A {
+     integer x;
+
+     foo (x : integer, y : boolean) -> boolean {
+          print x;
+          return y;
+     } 
+}
+
+B extends A {
+     
+}
+
+
+Main {
+
+     
+     
+     main() -> none {
+          B bar;
+          B baz;
+
+          boolean result;
+
+          bar = new B;
+          baz = new B;
+
+          result = bar.foo(5, true);
+
+          result = baz.foo(10, false);
+
+          print result;
+     }  
+
+}

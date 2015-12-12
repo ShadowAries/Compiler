@@ -1,0 +1,43 @@
+/* YOU MUST DISABLE THE CHECK FOR MAIN HAVING MEMBERS" */
+
+A {
+     integer x;
+}
+
+
+Main {
+/*
+     A member1;
+     A member2;
+     */
+     
+     main() -> none {
+          A local1;
+          A local2;
+
+          local1 = new A;
+          local2 = new A;
+
+          local1.x = 5;
+          local2.x = 10;
+
+
+          print local1.x;
+          print local2.x;
+          
+
+
+
+     /*
+          member1 = new A;
+          member2 = new A;
+         
+          member1.x = 5;
+          member2.x = 10;
+
+          print member1.x;
+          */
+          
+     }    
+
+}

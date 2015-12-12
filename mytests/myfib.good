@@ -1,0 +1,11 @@
+Main {
+     fib(a : integer) -> integer {
+          print 1;
+          return a;
+    }
+
+     main() -> none {
+         integer x;
+         x = fib(fib(1));         
+     }
+}

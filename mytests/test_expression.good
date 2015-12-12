@@ -1,0 +1,39 @@
+Main {
+
+     main() -> none {
+     /*
+
+     	    print 6;
+     	    print -2;
+     	    print 6 + 7;
+     	    print 6 - 3;
+     	    print 6 * 2;
+     	    print 125 / 2;
+
+     	    print true;
+     	    print false;
+
+     	    print 1 < 1;
+     	    print 1 < 2;
+     	    print 1 <= 2;
+
+     	    print 1 equals 1;
+     	    print 1 equals 2;
+     	    
+
+     	    print not true;
+     	    print not false;
+
+     	    */
+
+     	    
+     	    print true and true;
+     	    print true and false;
+
+     	    print true or true;
+     	    print true or false;
+     	    print false and true;
+     	    
+     }    
+
+}

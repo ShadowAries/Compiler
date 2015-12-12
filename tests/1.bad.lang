@@ -1,0 +1,136 @@
+class0 {
+    integer	member0;
+    integer	member1;
+    boolean	member2;
+    boolean	member3;
+    boolean	member4;
+
+    class0(arg0 : integer, arg1 : boolean) -> none {
+        boolean local0;
+        integer local1;
+        
+        member4 = 157 <= 104;
+        member1 = -20;
+        member0 = 136;
+        member3 = false;
+        member2 = 94 < 45;
+        local1 = 90;
+        local0 = 27 equals 31;
+        
+        local0 = member3 and member2;
+
+    }
+
+
+}
+
+Main {
+
+
+    main() -> none {
+        integer i0, i1, i2, i3, i4, i5, i6, i7, i8, i9, i10;
+        class0 local0;
+        
+        
+        print false;
+        print false;
+        i0 = 5;
+        while 5 < i0 {
+             i0 = i0 + 0;
+        
+            if 30 equals 113 {
+            	local0 = new class0(5, 6); /* Error this line */
+                if true or true {
+                    if true {
+                        i1 = 592;
+                        while 37 <= i1 {
+                             i1 = i1 / 4;
+                        
+                            i2 = 0;
+                            while i2 < 4096 {
+                                 i2 = i2 * 4;
+                            
+                                if 221 < 136 {
+                                    print 215 / 169;
+                                }
+                                
+                            }
+                            print true;
+                        }
+                    }
+                    
+                    if true {
+                        print 155 * 102;
+                    }
+                    
+                }
+                
+            } else {
+                print 238;
+            }
+            
+            print 255;
+        }
+        print 6 <= (226);
+        print 193;
+        i3 = 12;
+        while -36 <= i3 {
+             i3 = i3 + -4;
+        
+            if 218 <= 91 + 163 {
+                print true;
+                print 100;
+            }
+            
+            i4 = 33;
+            while i4 <= 114 {
+                 i4 = i4 * 3;
+            
+                print not ((true) or true);
+            }
+        }
+        i5 = 1280;
+        while 80 < i5 {
+             i5 = i5 / 4;
+        
+            print 58 + 136;
+        }
+        i6 = -82;
+        while i6 <= 174 {
+             i6 = i6 * 4;
+        
+            print (201) < 254;
+            print false;
+            print false or 7 equals 73;
+        }
+        i7 = 85;
+        while i7 < 93 {
+             i7 = i7 - -2;
+        
+            print true;
+            i8 = 49;
+            while -41 < i8 {
+                 i8 = i8 - 5;
+            
+                print false or 0 equals 169;
+                print 227;
+            }
+        }
+        print 125 < 225;
+        i9 = 97;
+        while -8 <= i9 {
+             i9 = i9 + -5;
+        
+            i10 = 40;
+            while 5 < i10 {
+                 i10 = i10 / 2;
+            
+                print 209 - 138;
+            }
+        }
+
+    }
+
+
+}
+

@@ -1,0 +1,17 @@
+/* YOU MUST DISABLE THE CHECK FOR MAIN HAVING MEMBERS" */
+
+A {
+     integer x;
+}
+
+Main {
+	
+     main() -> none {
+     	A foo;
+
+     	foo.x = 5;
+
+        print foo.x; 
+     }    
+
+}

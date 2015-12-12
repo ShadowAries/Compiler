@@ -1,0 +1,50 @@
+/* YOU MUST DISABLE THE CHECK FOR MAIN HAVING MEMBERS" */
+
+A {
+     integer x;
+     integer y;
+     integer z;
+}
+
+
+Main {
+	/*
+	A member1;
+	A member2;
+	A member3;
+	*/
+	
+     main() -> none {
+     	
+     	A local1;
+     	A local2;
+     	A local3;
+     	
+     	/*
+     	member1.x = 5;
+     	member2.y = 10;
+     	member3.z = 15;
+     	*/
+
+     	/*
+     	local1.x = member1.x;
+     	local2.y = member2.y;
+     	local3.z = member3.z;
+     	*/
+
+     	local1.x = 5;
+     	local2.y = 10;
+     	local3.z = 15;
+     	
+
+     	/*print member1.x;*/
+     	/*print local1.x;*/
+
+     	/*print member2.y;*/
+     	/*print local2.y;*/
+
+     	/*print member3.z;*/
+     	/*print local3.z;*/
+     }    
+
+}

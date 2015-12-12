@@ -1,0 +1,13 @@
+Main {
+
+     main() -> none {
+     
+     	integer x;
+     	integer y;
+     	y = 2;
+     	x = y + 2;
+     	print x + y;
+
+     }    
+
+}
